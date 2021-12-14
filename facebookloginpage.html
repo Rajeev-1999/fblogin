@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{box-sizing: border-box;}
+        body{background-color: #f0f2f5;
+             margin: 10%;}
+         h2{font-family:Helvetica, Arial, sans-serif;
+                 font-size: 28px;
+                 font-weight: normal;
+                 line-height: 32px;
+                 width: 500px;}
+        #image{
+            height: 106px;
+            margin: -28px;
+            border: 0;
+            font-family: inherit;
+            font-size: 12px;}
+
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+        [class*="col-"]{
+            float: left;
+        }
+        .formc{
+            background-color: white;
+            border-radius: 6px;
+            box-shadow: 6px;
+            width: 396px;
+            height: 350px;
+            box-shadow:0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+            margin-left:10% ;
+        }
+        #email{font-family: inherit;
+               border-radius: 6px;
+               font-size: 17px;
+               padding: 14px 16px;
+               width: 330px;
+                border: 1px solid #dddfe2;}
+               
+        #pass{font-family: inherit;
+               border-radius: 6px;
+               font-size: 17px;
+               padding: 14px 16px;
+               width: 330px;
+               border: 1px solid #dddfe2;
+
+        }
+        #log{font-family: inherit;
+               border-radius: 6px;
+               font-size: 17px;
+               padding: 14px 16px;
+               width: 330px;
+               border:none;
+               background-color: #1877f2;
+               color: white;
+        
+
+
+        }
+        #forgotten{
+            color: #1877f2;
+            font-family: inherit;
+            font-size: 17px;
+            font-weight: 500;
+            cursor: pointer;
+        }
+        #creat {font-family: inherit;
+               border-radius: 6px;
+               font-size: 17px;
+               font-weight: 800;
+               padding: 20px;
+               padding-right: 20px;
+               padding-top: 10px;
+               border:none;
+               background-color:rgb(29, 177, 36);
+               color: rgb(255, 255, 255);
+               box-shadow:  0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);}
+               
+        .email{
+            margin-bottom: 10px;
+            margin-top: 15px;
+            text-align: center;
+        } 
+        .passs{
+            margin-bottom: 15px;
+            margin-top: 10px;
+            text-align: center;
+        }
+        .log{
+            margin-top: 15px;
+            margin-bottom:15px ;
+            text-align: center;
+        }
+        .forget{
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .new{
+            margin-top: 30px;
+            text-align: center;
+        }
+        .parac{
+            margin-top: 5%;
+        }
+        .newpage{
+            font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: black;
+            font-weight: normal;
+            margin-top: 28px;
+            text-align:center;
+            line-height: 1.34;
+            margin-left: 30%;
+
+        }
+
+
+      
+        
+    </style>
+</head>
+<body>
+    <div class="parac col-6">
+    <div>
+        <img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="Facebook" id="image">
+    </div>
+    <div class="para">
+        <h2>Facebook helps you connect and share with the people in your life.</h2>
+    </div>   
+    </div>
+    <div class="formc col-6">
+    <div class="email">
+        <input type="text" name="email" id="email" placeholder="Email address or phone number">
+    </div >
+    <div class="passs">
+        <input type="password" name="pass" id="pass" placeholder="Password">
+    </div>
+    <div class="log">
+        <button name="Submit" id="log">Log In</button>
+    </div>
+    <div class="forget">
+        <a href="#" target="_blank" rel="noopener noreferrer" id="forgotten">Forgotten password?</a>
+    </div>
+    <hr>
+    <div class="new">
+        <a href="#" target="_blank" rel="noopener noreferrer" id="creat" role="button">Create New Account</a>
+    </div>
+    </div>
+    <div class="newpage col-12">
+        <a href="#" target="_blank" rel="noopener noreferrer" id="cp" style="color: black;">Creat a Page</a> for a celebrity, brand or business.
+    </div>
+   
+</body>
+</html>
